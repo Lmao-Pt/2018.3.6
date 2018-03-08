@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <style type="text/css">
+	.nav-list{
+		float: left;
+		margin-top: 150px;
+		margin-left: 74px;
+		width: 222px;
+		height: 480px;
+		background: rgb(0,102,204);
+		color: #fff;
+		
+	}
+	li{
+		float: left;
+		width: 100%;
+		font-weight: lighter;
+		
+		
+	}
+	.show{
+		position: absolute;
+		top: 202px;
+		left: 296px;
+		width: 980px;
+		height: 426px;
+		display: none;
+		
+		z-index: 2;
+	}
+
+	.li1:hover .show{
+		background: #ff0099;
+		display: block;
+	}
+	.li2:hover .show{
+		background: #009966;
+		display: block;
+	}
+	.li3:hover .show{
+		background: #666666;
+		display: block;
+	}
+	.li4:hover .show{
+		background: #cc3300;
+		display: block;
+	}
+	.li5:hover .show{
+		background: #330000;
+		display: block;
+	}
+	.li6:hover .show{
+		background: #ffff99;
+		display: block;
+	}
+	.menu{
+		
+		padding-top: 14px;
+		font-size: 16px;	
+		height: 38px;
+		vertical-align: middle;
+		
+	}
+	.line{
+		display: inline-block;
+		
+		width: 30px;
+		height: 30px;
+		line-height:20px;
+		text-align: center;
+		vertical-align: middle;
+
+	}
+	hr{
+		
+		
+		margin: 5px;
+		border: 0;
+		color: #fff;
+		background-color: #fff; 
+		height: 2px;
+		width: 18px;
+		
+	}
+	i{
+		float: right;
+		padding-right: 4px;
+	}
+	span{
+		display: inline-block;
+		margin-top: 4px;
+		height:30px;
+		line-height:20px;
+		text-align: center;
+		vertical-align: middle;
+
+	}
+
+	li+li{
+	
+		height: 70px;
+		border-top: 1px solid #007bf7;
+		text-indent: 16px;
+	}
+	a{
+		color: #fff;
+	}
+	.menu a{
+		
+		margin-left: 10px;
+	}
+	
+	h2{
+		font-size: 16px;
+		margin-top: 10px;
+		font-weight: inherit;
+		 
+	}
+	h3{
+		font-size: 14px;
+		margin-top: 6px;
+		font-weight: inherit;
+		opacity: 0.8;
+	}
+	
+	.bg{
+		position: absolute;
+		top: 202px;
+		width: 100%;
+		height: 300px;
+		background: rgb(68,27,121);
+		z-index: -1;
+		
+	}
+	
+  </style>
+ </head>
+ <body>
+	<div class="nav-list">
+		<ul>
+			<li class="menu">
+				<a href="" style="display:block;">
+					<div class="line">
+					<hr />
+					<hr />
+					<hr />
+				</div>
+				<span >全部课程</span>
+				</a>
+				
+			</li>
+			<li class="li1">
+				<a href=""><h2>IT·互联网<i>></i></h2></a>
+				<a href=""><h3>前端开发&nbsp;Linux运维 <i></i></h3></a>
+				<div class="show">
+				</div>
+			</li>
+			<li class="li2">
+				<a href=""><h2>设计·创作<i>></i></h2></a>
+				<a href=""><h3>平面设计&nbsp;游戏美术设计&nbsp;CAD</h3></a>
+				<div class="show">
+				</div>
+			</li>
+			<li class="li3">
+				<a href=""><h2>语言·留学<i>></i></h2></a>
+				<a href=""><h3>实用口语雅思托福</h3></a>
+				<div class="show">
+				</div>
+			</li>
+			<li class="li4">
+				<a href=""><h2>职业·考证<i>></i></h2></a>
+				<a href=""><h3>公务员教师考试建造工程</h3></a>
+				<div class="show">
+				</div>
+			</li>
+			<li class="li5">
+				<a href=""><h2>升学·考研<i>></i></h2></a>
+				<a href=""><h3>考研大学高中初中</h3></a>
+				<div class="show">
+				</div>
+			</li>
+			<li class="li6">
+				<a href=""><h2>兴趣·生活<i>></i></h2></a>
+				<a href=""><h3>摄影乐器美妆育儿</h3></a>
+				<div class="show">
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="bg"></div>
+
+ </body>
+</html>
